@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ListGroup</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="bg-secondary">
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item bg-danger">Apple</li>
+            <li class="list-group-item bg-info">Banana</li>
+            <li class="list-group-item bg-primary">Grapes</li>
+            <li class="list-group-item bg-warning">Orange</li>
+          </ul>
+          <br />
+          <h1>Horizontal group list</h1>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item bg-danger">Apple</li>
+            <li class="list-group-item bg-info">Banana</li>
+            <li class="list-group-item bg-primary">Grapes</li>
+            <li class="list-group-item bg-warning">Orange</li>
+          </ul>
+
+          <br />
+          <h1>Numbered group list</h1>
+          <ul class="list-group list-group-numbered">
+            <li class="list-group-item bg-danger">Apple</li>
+            <li class="list-group-item bg-info">Banana</li>
+            <li class="list-group-item bg-primary">Grapes</li>
+            <li class="list-group-item bg-warning">Orange</li>
+          </ul>
+          <br />
+
+          <h1>Badges inside list group items</h1>
+          <ul class="list-group">
+            <li
+              class="list-group-item list-group-item-danger d-flex justify-content-between align-content-center"
+            >
+              Inbox <span class="badge bg-primary rounded-pill"> 10</span>
+            </li>
+
+            <li
+              class="list-group-item list-group-item-warning d-flex justify-content-between align-content-center"
+            >
+              Sent Items <span class="badge bg-primary rounded-pill"> 3</span>
+            </li>
+
+            <li
+              class="list-group-item list-group-item-dark d-flex justify-content-between align-content-center"
+            >
+              Junk files <span class="badge bg-primary rounded-pill">15</span>
+            </li>
+          </ul>
+
+          <h1>
+            Active and disabled and list group action used for hover effect
+          </h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">
+              Link 1 Active</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action disabled bg-warning text-white-50"
+            >
+              disabled Link 2</a
+            >
+            <a href="#" class="list-group-item list-group-item-action">
+              Link 3</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

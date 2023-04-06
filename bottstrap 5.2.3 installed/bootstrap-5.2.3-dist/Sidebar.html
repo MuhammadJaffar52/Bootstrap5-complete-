@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offacanvas & Sidebar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+    
+        
+         <button
+        type="button"
+        class="btn btn-primary mt-4 "
+        data-bs-target="#mySidebar"
+        data-bs-toggle="offcanvas"
+      >
+        Open Sidebar
+      </button>
+
+<!-- offcanvas can be in top, bottom , end and start -->
+      <div class="offcanvas offcanvas-end bg-info text-dark" id="mySidebar">
+        <div class="offcanvas-header">
+          <h2 class="offcanvas-title">Navigation Bar</h2>
+       
+          <!-- Cross button -->
+          <button
+            type="button"
+          class="btn-close  text-reset"
+            data-bs-dismiss="offcanvas"
+             ></button>
+   </div>
+   
+      <div class="offcanvas-body">
+        <h4>Some Text Is Here.Some Text Is Here.</h4>
+        <h4>Some Text Is Here.Some Text Is Here.</h4>
+        <h4>Some Text Is Here.Some Text Is Here.</h4>
+        <h4>Some Text Is Here.Some Text Is Here.</h4>
+        <h4>Some Text Is Here.Some Text Is Here.</h4>
+
+        <button type="button" class="btn btn-warning">Button : 1</button>
+        <br /><br />
+        <button type="button" class="btn btn-dark">Button : 2</button>
+      </div>
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

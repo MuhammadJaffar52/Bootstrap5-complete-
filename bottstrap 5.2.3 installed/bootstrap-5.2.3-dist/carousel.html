@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel in BS 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- CAROUSEL STARTS FROM HERE -->
+
+      <div class="carousel slide mt-4" id="demo" data-bs-ride="carousel">
+        <div>
+        <!-- CAROUSEL INDICATOR STARTS FROM HERE -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- CAROUSEL INNER STARTS FROM HERE -->
+        <div class="carousel-inner">
+          <!-- CAROUSEL ITEM STARTS FROM HERE -->
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img
+              src="img/background.jpg"
+              alt=""
+              class="d-block w-100"
+              style="height: 400px"
+            />
+            <div class="carousel-caption">
+              <h3>Slide No:1</h3>
+              <p>This is My First Slide</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="img/basketball.png"
+              alt=""
+              class="d-block w-100"
+              style="height: 400px"
+            />
+            <div class="carousel-caption">
+              <h3>Slide No:2</h3>
+              <p>This is My Second Slide</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="img/banner.png"
+              alt=""
+              class="d-block w-100"
+              style="height: 400px"
+            />
+            <div class="carousel-caption">
+              <h3>Slide No:3</h3>
+              <p>This is My Third Slide</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAROUSEL PREV STARTS FROM HERE -->
+        <button
+          type="button"
+          class="carousel-control-prev"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <!-- CAROUSEL NEXT STARTS FROM HERE -->
+        <button
+          type="button"
+          class="carousel-control-next"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

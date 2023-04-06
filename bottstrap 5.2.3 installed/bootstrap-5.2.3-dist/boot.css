@@ -1,0 +1,20 @@
+.container{
+    border: 5px solid orangered;
+
+}
+.box1{
+    min-height: 100px;
+    background-color: gray;
+}
+.box2{
+    min-height: 100px;
+    background-color: rgb(151, 19, 19);
+}
+.box3{
+    min-height: 100px;
+    background-color: rgb(14, 4, 4);
+}
+.box4{
+    min-height: 100px;
+    background-color: rgb(76, 179, 32);
+}

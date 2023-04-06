@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test sheet</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-4">
+          <div class="form-check form-switch">
+            <label for="mySwitch" class="form-check-label"></label>
+            <input type="checkbox" class="form-check-input" />
+          </div>
+
+          <!-- Offcanvas Sidebar -->
+          <!-- <div class="offcanvas offcanvas-start" id="demo">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Heading</h1>
+              <button
+                type="button"
+                class="btn-close btn-close-whites text-reset"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>Some text lorem ipsum.</p>
+              <p>Some text lorem ipsum.</p>
+              <button class="btn btn-secondary" type="button">A Button</button>
+            </div>
+          </div>
+
+           Button to open the offcanvas sidebar
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#demo"
+          >
+            Sidebar
+          </button> -->
+
+          <!-- <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="popover"
+            title="Popover Header"
+            data-bs-trigger="focus"
+            data-bs-content="Some content inside the popover"
+          >
+            popover
+          </button>
+          <br /><br />
+          <a
+            href="#"
+            title="Dismissible popover"
+            data-bs-toggle="popover"
+            data-bs-trigger="focus"
+            data-bs-content="Click anywhere in the document to close this popover"
+            >Click me</a
+          >
+          <br /><br />
+          <a
+            href="#"
+            title="Header"
+            data-bs-toggle="popover"
+            data-bs-trigger="hover"
+            data-bs-content="Popover text"
+            >Hover over me</a
+          > -->
+
+          <!-- <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="tooltip"
+            title="Hooray!"
+          >
+            Hover over me!
+          </button>
+
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Hooray!"
+            >Hover</a
+          >
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            title="Hooray!"
+            >Hover</a
+          >
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="left"
+            title="Hooray!"
+            >Hover</a
+          >
+          <a
+            href="#"
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="Hooray!"
+            >Hover</a
+          > -->
+          <!-- Carousel
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+             Indicators/dots            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+
+             The slideshow/carousel
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/banner.png"
+                  alt="Los Angeles"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/background.jpg"
+                  alt="Chicago"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption">
+                  <h3>Los Angeles</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/j1.jpg" alt="New York" class="d-block w-100" />
+                <div class="carousel-caption">
+                  <h3>JAFFAR KHAN</h3>
+                  <p>We had such a great time in LA!</p>
+                </div>
+              </div>
+            </div>
+
+             Left and right controls/icons 
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div> -->
+
+          <!-- Nav pills
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#menu2">Menu 2</a>
+            </li>
+          </ul>
+
+           Tab panes 
+          <div class="tab-content">
+            <div class="tab-pane container active" id="home">
+              AYAZ SAJJAD SHERAZ AWAIS DAOOD ...
+            </div>
+            <div class="tab-pane container fade" id="menu1">
+              RAHAM . NAZIK ALI . LIAQAT...
+            </div>
+            <div class="tab-pane container fade" id="menu2">
+              ASIF . JAFFAR . NADEEM . IMRAN. FAROOQ . BASIT SAQIB
+            </div>
+          </div> -->
+
+          <!-- Nav tabs -->
+          <!-- <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#menu1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#menu2">Contact</a>
+            </li>
+          </ul>
+
+           Tab panes 
+          <div class="tab-content">
+            <div class="tab-pane container active col-2" id="home">
+              ALLAH IS THE ONE. ALLAH IS THE GREATEST ALLAH IS THE ONE. ALLAH IS
+              THE GREATEST...
+            </div>
+            <div class="tab-pane container fade col-2" id="menu1">
+              Hazrat Muhammad s a w is the Last Prophet of ALLAH Almighty...
+            </div>
+            <div class="tab-pane container fade col-2" id="menu2">
+              ALLAH IS THE ONE. ALLAH IS THE GREATEST ALLAH IS THE ONE. ALLAH IS
+              THE GREATEST...s
+            </div>
+          </div> -->
+
+          <!-- <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>       <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          
+        -->
+
+          <!-- <button
+            class="btn btn-primary"
+            data-bs-toggle="collapse"
+            data-bs-target="#demo"
+          >
+            Collapsible
+          </button>
+
+          <div id="demo" class="collapse">
+            Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor text
+            Lorem ipsum dolor text Lorem ipsum dolor text Lorem ipsum dolor
+            text....
+          </div> -->
+
+          <!-- <div class="dropdown dropend">
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              Dropdown button
+            </button>
+            <ul class=" dropdown-menu dropdown-menu-end">
+              <li><h5 class="dropdown-header">Dropdown header 1</h5></li>
+              <li>
+                <a class="dropdown-item" href="#">Link 1</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Link 2</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </li>
+              <li><hr class="dropdown-divider"></hr> Add Another Link</li>
+            </ul>
+          </div> -->
+
+          <!-- <div class="card" style="width: 300px">
+            <img class="card-img-top" src="img/j1.jpg" alt="Card image" />
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                My Name is Muhammad Jaffar I'm from DG kHAN. Nowadays I'm in
+                Lahore in the University of Education
+              </p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div> -->
+
+          <!-- <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center list-group-item-action list-group-item-dark"
+            >
+              Inbox
+              <span class="badge bg-primary rounded-pill">12</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center list-group-item-action list-group-item-info"
+            >
+              Ads
+              <span class="badge bg-warning rounded-pill">50</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center list-group-item-action list-group-item-success"
+            >
+              Junk
+              <span class="badge bg-danger rounded-pill">99</span>
+            </li>
+          </ul> -->
+
+          <!-- <div class="list-group list-group-horizontal">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action list-group-item-dark"
+              >First item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action list-group-item-warning"
+              >Second item</a
+            >
+            <a
+              href="#"
+              class="list-group-item list-group-item-action list-group-item-danger"
+              >Third item</a
+            >
+          </div> -->
+
+          <!-- <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-warning">Samsung</button>
+            <button type="button" class="btn btn-danger">Sony</button>
+          </div> -->
+
+          <!-- <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+          </button>
+
+          <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+          </button> -->
+
+          <!-- <div class="d-grid gap-4">
+            <button type="button" class="btn btn-primary btn-block">
+              Full-Width Button
+            </button>
+            <button type="button" class="btn btn-primary btn-block">
+              Full-Width Button
+            </button>
+            <button type="button" class="btn btn-primary btn-block">
+              Full-Width Button
+            </button>
+          </div> -->
+
+          <!-- <div class="alert alert-success alert-dismissible show">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="alert"
+            ></button>
+            <strong>Success!</strong> This alert box could indicate a successful
+            or positive action.
+          </div> -->
+
+          <!-- <div class="alert alert-success">
+            <strong>Success!</strong> You should
+            <a href="#" class="alert-link">read this message</a>.
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>

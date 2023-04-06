@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopOver in BS 5</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button
+        type="button"
+        class="btn btn-primary float-end mt-5"
+        data-bs-toggle="popover"
+        title="PopOver-Title"
+        data-bs-content="Some Text Inside The Popover"
+        data-bs-trigger="focus"
+        data-bs-placement="left"
+        data-bs-trigger="Hover"
+      >
+        Popover
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-info mt-5"
+        data-bs-toggle="popover"
+        title="PopOver-Title"
+        data-bs-content="Some Text Inside The Popover"
+        data-bs-placement="bottom"
+        data-bs-trigger="focus"
+      >
+        Popover
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-warning float-end"
+        style="margin-top: 300px"
+        data-bs-toggle="popover"
+        title="PopOver-Title"
+        data-bs-content="Some Text Inside The Popover"
+        data-bs-placement="top"
+      >
+        Popover
+      </button>
+
+      <!-- Can make popover by some tags -->
+      <h4
+        style="margin-top: 200px"
+        data-bs-placement="bottom"
+        data-bs-content="Some Text Inside The Popover"
+        title="PopOver-Title"
+        data-bs-toggle="popover"
+      >
+        Hi Popover
+      </h4>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Source: popover bootstrap 5  >> getbootstrap.com-->
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
+      });
+    </script>
+  </body>
+</html>
